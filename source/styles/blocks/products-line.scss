@@ -1,0 +1,42 @@
+.products-line__list{
+  font-family: $sfProUltraLight;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.products-line__name{
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.products-line__name span{
+  font-weight: 600;
+}
+
+.products-line__oprions{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #909090;
+}
+
+.products-line__item--black{
+  background-color: #353535;
+}
+
+.products-line__item--black h3{
+  color: #ffffff;
+}
+
+.products-line__item--gray{
+background-color: #EDEDED;
+}
+.products-line__button{
+  text-decoration: none;
+  color:#000000;
+}
