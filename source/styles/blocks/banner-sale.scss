@@ -1,0 +1,32 @@
+.banner-sale{
+  background:  url("../../images/bannerSale-mobile@1x.jpg");
+   width: 375px;
+  height: 440px;
+  font-family: $sfProUltraLight;
+  text-align: center;
+}
+
+.banner-sale__tittle{
+font-weight: 200;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: -1%;
+text-align: center;
+color: #FFFFFF;
+}
+.banner-sale__tittle span{
+font-weight: 300;
+}
+
+.banner-sale__text{
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+color: #787878;
+}
+
+.banner-sale__link{
+  text-decoration: none;
+  color: #FFFFFF;
+}

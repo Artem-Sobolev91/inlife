@@ -200,7 +200,7 @@
     </picture>
     <h3 class="products-offers__name">Galaxy Buds FE Graphite</h3>
     <span class="products-offers__price">$99.99</span>
-    <button class="products-offers__buy">Buy Now</button>
+    <button type="submit" class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
     <span class="products-offers__favorite"></span>
@@ -217,21 +217,21 @@
   <ul class="banners__list">
     <li class="banners__item">
       <picture>
-        <img src="images/banners-popularproducts-desktop@1x.png" srcset="images/banners-popularproducts-desktop@2x.png 2x" width="320" height="327" alt="Image prodducts">
-      </picture>
-      <h3 class="banners__tittle">Popular Products</h3>
-       <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-       <button class="banners__buttons">Shop Now</button>
-    </li>
-    <li class="banners__item">
-      <picture>
         <img src="images/banners-ipadpro-desktop@1x.png" srcset="images/banners-ipadpro-desktop@2x.png 2x" width="320" height="327" alt="Ipad Pro">
       </picture>
       <h3 class="banners__tittle">Ipad Pro</h3>
        <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
        <button class="banners__buttons">Shop Now</button>
     </li>
-    <li class="banners__item">
+    <li class="banners__item visually-hidden">
+      <picture>
+        <img src="images/banners-popularproducts-desktop@1x.png" srcset="images/banners-popularproducts-desktop@2x.png 2x" width="320" height="327" alt="Image prodducts">
+      </picture>
+      <h3 class="banners__tittle">Popular Products</h3>
+       <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+       <button class="banners__buttons">Shop Now</button>
+    </li>
+    <li class="banners__item visually-hidden">
       <picture>
         <img src="images/banners-galaxy-desktop@1x.png" srcset="images/banners-galaxy-desktop@2x.png 2x" width="320" height="327" alt="Samsung Galaxy">
       </picture>
@@ -239,7 +239,7 @@
        <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
        <button class="banners__buttons">Shop Now</button>
     </li>
-    <li class="banners__item">
+    <li class="banners__item visually-hidden">
       <picture>
         <img src="images/banners-macbook-desktop@1x.png" srcset="images/banners-macbook-desktop@2x.png 2x" width="320" height="327" alt="Macbook Pro">
       </picture>
@@ -256,38 +256,38 @@
       <picture>
         <img src="images/discount-iphone14progold-desktop@1x.png" srcset="images/discount-iphone14progold-desktop@2x.png 2x" width="160" height="160" alt="Apple iPhone">
       </picture>
-      <h3 class="discount-products__tittle">Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
-       <span class="discount-products__text">$1437</span>
+      <h3 class="discount-products__item-tittle">Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
+       <span class="discount-products__price">$1437</span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
       <picture>
         <img src="images/discount-airpods-desktop@1x.png" srcset="images/discount-airpods-desktop@2x.png 2x" width="160" height="160" alt="AirPods">
       </picture>
-      <h3 class="discount-products__tittle">AirPods Max Silver</h3>
-       <span class="discount-products__text">$549 </span>
+      <h3 class="discount-products__item-tittle">AirPods Max Silver</h3>
+       <span class="discount-products__price">$549 </span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
       <picture>
         <img src="images/discount-applewatch-desktop@1x.png" srcset="images/discount-applewatch-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
       </picture>
-      <h3 class="discount-products__tittle">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h3>
-       <span class="discount-products__text">$399</span>
+      <h3 class="discount-products__item-tittle">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h3>
+       <span class="discount-products__price">$399</span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
       <picture>
         <img src="images/discount-iphone14pro-desktop@1x.png" srcset="images/discount-iphone14pro-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
       </picture>
-      <h3 class="discount-products__tittle">Apple iPhone 14 Pro 1TB Silver (MQ2V3)</h3>
-       <span class="discount-products__text">$1499</span>
+      <h3 class="discount-products__item-tittle">Apple iPhone 14 Pro 1TB Silver (MQ2V3)</h3>
+       <span class="discount-products__price">$1499</span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
   </ul>
 </section>
 <section class="banner-sale">
-  <h2 class="banner-sale__tittle">Big Summer Sale</h2>
+  <h2 class="banner-sale__tittle">Big Summer <span>Sale</span></h2>
   <p class="banner-sale__text">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
   <a class="banner-sale__link" href="#">Shop now</a>
 </section>
@@ -301,7 +301,7 @@
   <p class="main-footer__text">We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
 
   <ul class="main-footer__services-list">
-    <h3>Services</h3>
+    <h3 class="main-footer__tittle-services">Services</h3>
     <li class="main-footer__services-item">
       <a class="main-footer__services-link" href="#">Bonus program</a>
     </li>
@@ -322,7 +322,7 @@
     </li>
   </ul>
   <ul class="main-footer__services-list">
-    <h3>Assistance to the buyer</h3>
+    <h3 class="main-footer__tittle-services">Assistance to the buyer</h3>
     <li class="main-footer__services-item">
       <a class="main-footer__services-link" href="#">Find an order</a>
     </li>
