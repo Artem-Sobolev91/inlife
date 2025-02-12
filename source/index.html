@@ -2,6 +2,7 @@
 <html class="page" lang="ru">
 <!-- прописать альт к ссылкам и изображениям -->
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,50 +10,51 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body class="page__body">
+<body class="page-body">
 <header class="main-header">
   <a class="main-header__logo-pic" href="index.html">
     <picture>
       <img src="images/logo-pic-black.svg"  width="65" height="22" alt="logotip cyber">
     </picture>
   </a>
-  <form>
+  <form class="main-header__search">
     <label for="search">Поиск:</label>
     <input type="text" id="search" name="search">
   </form>
   <ul class="main-header__main-nav">
     <li class="main-header__item">
-      <a class="main-header" href="#">Home</a>
+      <a class="main-header__link" href="#">Home</a>
     </li>
     <li class="main-header__item">
-      <a class="main-header" href="#">About</a>
+      <a class="main-header__link" href="#">About</a>
     </li>
     <li class="main-header__item">
-      <a class="main-header" href="#">Contact Us</a>
+      <a class="main-header__link" href="#">Contact Us</a>
     </li>
     <li class="main-header__item">
-      <a class="main-header" href="#">Blog</a>
+      <a class="main-header__link" href="#">Blog</a>
     </li>
   </ul>
   <ul class="main-header__main-nav">
     <li class="main-header__item">
-      <a class="main-header" href="#">избранное</a>
+      <a class="main-header__link" href="#">избранное</a>
     </li>
     <li class="main-header__item">
-      <a class="main-header" href="#">корзина</a>
+      <a class="main-header__link" href="#">корзина</a>
     </li>
     <li class="main-header__item">
-      <a class="main-header" href="#">профиль</a>
+      <a class="main-header__link" href="#">профиль</a>
     </li>
   </ul>
 </header>
 <main class="main-container">
-  <h1>Онлайн-магазин техники</h1>
+  <h1 class="visually-hidden">Онлайн-магазин техники</h1>
   <section class="hero">
     <p class="hero__slogan">Pro.Beyond.</p>
-    <h3 class="hero__product-name">IPhone 14 Pro</h3>
+    <h3 class="hero__product-name">IPhone 14 <span>Pro</span></h3>
     <p class="hero__target">Created to change everything for the better. For everyone</p>
     <a class="hero__button" href="#">Shop Now</a>
     <picture>
@@ -64,24 +66,14 @@
   <li class="products-line__item">
     <picture>
       <source type="image/png" media="(min-width: 1440px)" width="360" height="343" srcset="images/smallBanners-playstation-desktop@1x.png images/smallBanners-playstation-desktop@2x.png 2x" >
-      <img src="images/smallBanners-playstation-mobile@1x.png" srcset="images/smallBanners-playstation-mobile@2x.png 2x" width="200" height="200" alt="Playstation 5">
-    </picture>
-    <h3 class="products-line__name"><span>Playstation 5</span></h3>
-    <p class="products-line__oprions">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience. </p>
-  </li>
-  <li class="products-line__item">
-    <picture>
-      <source type="image/png" media="(min-width: 1440px)" width="360" height="343" srcset="images/smallBanners-playstation-desktop@1x.png images/smallBanners-playstation-desktop@2x.png 2x" >
-
       <img src="images/smallBanners-airpodsmax-mobile@1x.png" srcset="images/smallBanners-airpodsmax-mobile@2x.png 2x" width="192" height="200" alt="Apple AirPods">
     </picture>
     <h3 class="products-line__name">Apple AirPods <span>Max</span></h3>
     <p class="products-line__oprions">Computational audio. Listen, it's powerful</p>
   </li>
-  <li class="products-line__item">
+  <li class="products-line__item products-line__item--black">
     <picture>
       <source type="image/png" media="(min-width: 1440px)" width="360" height="343" srcset="images/smallBanners-playstation-desktop@1x.png images/smallBanners-playstation-desktop@2x.png 2x" >
-
       <img src="images/smallBanners-appleVision-mobile@1x.png" srcset="images/smallBanners-appleVision-mobile@2x.png 2x" width="326" height="192" alt="Vision Pro">
     </picture>
     <h3 class="products-line__name">Vision <span>Pro</span></h3>
@@ -89,9 +81,17 @@
   </li>
   <li class="products-line__item">
     <picture>
+      <source type="image/png" media="(min-width: 1440px)" width="360" height="343" srcset="images/smallBanners-playstation-desktop@1x.png images/smallBanners-playstation-desktop@2x.png 2x" >
+      <img src="images/smallBanners-playstation-mobile@1x.png" srcset="images/smallBanners-playstation-mobile@2x.png 2x" width="200" height="200" alt="Playstation 5">
+    </picture>
+    <h3 class="products-line__name">Playstation <span>5</span></h3>
+    <p class="products-line__oprions">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience. </p>
+  </li>
+  <li class="products-line__item products-line__item--gray">
+    <picture>
       <img src="images/smallBanners-macbookPro14-mobile@1x.png" srcset="images/smallBanners-macbookPro14-mobile@2x.png 2x" width="330" height="200" alt="Macbook">
     </picture>
-    <h3 class="products-line__name">Macbook</h3>
+    <h3 class="products-line__name"><span>Macbook</span> Air</h3>
     <p class="products-line__oprions">The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
 <a class="products-line__button" href="#">Shop Now</a>
   </li>
@@ -202,7 +202,7 @@
     </picture>
     <h3 class="products-offers__name">Galaxy Buds FE Graphite</h3>
     <span class="products-offers__price">$99.99</span>
-    <button class="products-offers__buy">Buy Now</button>
+    <button type="submit" class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
     <span class="products-offers__favorite"></span>
@@ -219,21 +219,21 @@
   <ul class="banners__list">
     <li class="banners__item">
       <picture>
-        <img src="images/banners-popularproducts-desktop@1x.png" srcset="images/banners-popularproducts-desktop@2x.png 2x" width="320" height="327" alt="Image prodducts">
-      </picture>
-      <h3 class="banners__tittle">Popular Products</h3>
-       <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
-       <button class="banners__buttons">Shop Now</button>
-    </li>
-    <li class="banners__item">
-      <picture>
         <img src="images/banners-ipadpro-desktop@1x.png" srcset="images/banners-ipadpro-desktop@2x.png 2x" width="320" height="327" alt="Ipad Pro">
       </picture>
       <h3 class="banners__tittle">Ipad Pro</h3>
        <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
        <button class="banners__buttons">Shop Now</button>
     </li>
-    <li class="banners__item">
+    <li class="banners__item visually-hidden">
+      <picture>
+        <img src="images/banners-popularproducts-desktop@1x.png" srcset="images/banners-popularproducts-desktop@2x.png 2x" width="320" height="327" alt="Image prodducts">
+      </picture>
+      <h3 class="banners__tittle">Popular Products</h3>
+       <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+       <button class="banners__buttons">Shop Now</button>
+    </li>
+    <li class="banners__item visually-hidden">
       <picture>
         <img src="images/banners-galaxy-desktop@1x.png" srcset="images/banners-galaxy-desktop@2x.png 2x" width="320" height="327" alt="Samsung Galaxy">
       </picture>
@@ -241,7 +241,7 @@
        <p class="banners__text">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
        <button class="banners__buttons">Shop Now</button>
     </li>
-    <li class="banners__item">
+    <li class="banners__item visually-hidden">
       <picture>
         <img src="images/banners-macbook-desktop@1x.png" srcset="images/banners-macbook-desktop@2x.png 2x" width="320" height="327" alt="Macbook Pro">
       </picture>
@@ -258,38 +258,38 @@
       <picture>
         <img src="images/discount-iphone14progold-desktop@1x.png" srcset="images/discount-iphone14progold-desktop@2x.png 2x" width="160" height="160" alt="Apple iPhone">
       </picture>
-      <h3 class="discount-products__tittle">Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
-       <span class="discount-products__text">$1437</span>
+      <h3 class="discount-products__item-tittle">Apple iPhone 14 Pro 512GB Gold (MQ233)</h3>
+       <span class="discount-products__price">$1437</span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
       <picture>
         <img src="images/discount-airpods-desktop@1x.png" srcset="images/discount-airpods-desktop@2x.png 2x" width="160" height="160" alt="AirPods">
       </picture>
-      <h3 class="discount-products__tittle">AirPods Max Silver</h3>
-       <span class="discount-products__text">$549 </span>
+      <h3 class="discount-products__item-tittle">AirPods Max Silver</h3>
+       <span class="discount-products__price">$549 </span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
       <picture>
         <img src="images/discount-applewatch-desktop@1x.png" srcset="images/discount-applewatch-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
       </picture>
-      <h3 class="discount-products__tittle">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h3>
-       <span class="discount-products__text">$399</span>
+      <h3 class="discount-products__item-tittle">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</h3>
+       <span class="discount-products__price">$399</span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
       <picture>
         <img src="images/discount-iphone14pro-desktop@1x.png" srcset="images/discount-iphone14pro-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
       </picture>
-      <h3 class="discount-products__tittle">Apple iPhone 14 Pro 1TB Silver (MQ2V3)</h3>
-       <span class="discount-products__text">$1499</span>
+      <h3 class="discount-products__item-tittle">Apple iPhone 14 Pro 1TB Silver (MQ2V3)</h3>
+       <span class="discount-products__price">$1499</span>
        <button class="discount-products__buttons">Buy Now</button>
     </li>
   </ul>
 </section>
 <section class="banner-sale">
-  <h2 class="banner-sale__tittle">Big Summer Sale</h2>
+  <h2 class="banner-sale__tittle">Big Summer <span>Sale</span></h2>
   <p class="banner-sale__text">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
   <a class="banner-sale__link" href="#">Shop now</a>
 </section>
@@ -303,7 +303,7 @@
   <p class="main-footer__text">We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
 
   <ul class="main-footer__services-list">
-    <h3>Services</h3>
+    <h3 class="main-footer__tittle-services">Services</h3>
     <li class="main-footer__services-item">
       <a class="main-footer__services-link" href="#">Bonus program</a>
     </li>
@@ -324,7 +324,7 @@
     </li>
   </ul>
   <ul class="main-footer__services-list">
-    <h3>Assistance to the buyer</h3>
+    <h3 class="main-footer__tittle-services">Assistance to the buyer</h3>
     <li class="main-footer__services-item">
       <a class="main-footer__services-link" href="#">Find an order</a>
     </li>
@@ -369,6 +369,7 @@
   <li class="main-footer__social-item">
     <a href="#" class="main-footer__social-link">
       <image src="#"  class="main-footer__social-img" alt="instagram">
+
 
 
     </a>

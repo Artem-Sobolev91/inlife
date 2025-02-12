@@ -1,0 +1,17 @@
+.main-header__search {
+  display: none;
+}
+
+.main-header__main-nav {
+  display: none;
+  list-style: none;
+  font-family: $sfPro;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.main-header__link {
+  text-decoration: none;
+  color: #000000;
+}

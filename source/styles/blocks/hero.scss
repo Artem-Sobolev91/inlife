@@ -1,0 +1,30 @@
+.hero {
+  font-family: $sfProUltraLight;
+  font-size: 16px;
+  font-weight: 22px;
+  color: #909090;
+  background-color: #211c24;
+  text-align: center;
+}
+
+.hero__button {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero__slogan {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.hero__product-name {
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.hero__product-name span {
+  font-weight: 600;
+}
