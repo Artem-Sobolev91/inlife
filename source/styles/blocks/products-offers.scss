@@ -1,4 +1,4 @@
-.products-offers{
+.products-offers {
   font-family: $sfProUltraLight;
   font-weight: 500;
   font-size: 16px;
@@ -6,45 +6,45 @@
   text-align: center;
 }
 
-.products-offers__buttons-list{
+.products-offers__buttons-list {
   list-style: none;
 }
 
-.products-offers__item{
-  background-color: #F6F6F6;
+.products-offers__item {
+  background-color: #f6f6f6;
 }
 
-.products-offers__button{
-font-family: $sfProUltraLight;
-border:none;
-background-color: #FFFFFF;
-color: #8B8B8B;
-font-weight: 500;
-font-size: 16px;
-line-height: 32px;
-text-align: center;
+.products-offers__button {
+  font-family: $sfProUltraLight;
+  border: none;
+  background-color: #ffffff;
+  color: #8b8b8b;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
 }
 
-.products-offers__list{
-list-style: none;
-font-weight: 500;
-text-align: center;
+.products-offers__list {
+  list-style: none;
+  font-weight: 500;
+  text-align: center;
 }
 
-.products-offers__name{
-font-size: 16px;
-line-height: 24px;
+.products-offers__name {
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.products-offers__price{
-font-weight: 600;
-font-size: 24px;
-line-height: 24px;
-letter-spacing: 3%;
+.products-offers__price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 3%;
 }
 
-.products-offers__buy{
+.products-offers__buy {
   border: none;
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
