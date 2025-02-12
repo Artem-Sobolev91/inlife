@@ -22,6 +22,14 @@
     <label for="search">Поиск:</label>
     <input type="text" id="search" name="search">
   </form>
+  <button class="main-header__burger" type="button"><span class="visually-hidden">Открыть меню</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Burger"></use>
+    </svg>
+    <svg class="main-header__icon-cross" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Close"></use>
+    </svg>
+  </button>
   <ul class="main-header__main-nav">
     <li class="main-header__item">
       <a class="main-header__link" href="#">Home</a>
@@ -97,25 +105,53 @@
   </section>
   <section class="products-category">
     <h2 class="products-category__tittle">Browse By Category</h2>
-    <button class="products-category__button-slider">вперед</button>
-    <button class="products-category__button-slider">назад</button>
+    <button class="products-category__button-slider">
+      <span>назад</span>
+      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+        <use href="..\icons\stack.svg#Arrow"></use>
+      </svg>
+    </button>
+    <button class="products-category__button-slider">
+      <span>вперед</span>
+      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+        <use href="..\icons\stack.svg#Arrow"></use>
+      </svg>
+    </button>
 <ul class="products-category__list">
   <li class="products-category__item">
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Phones"></use>
+    </svg>
     Phones
   </li>
   <li class="products-category__item">
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Smart-Watches"></use>
+    </svg>
     Smart Watches
   </li>
   <li class="products-category__item">
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Cameras"></use>
+    </svg>
     Cameras
   </li>
   <li class="products-category__item">
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Headphones"></use>
+    </svg>
     Headphones
   </li>
   <li class="products-category__item">
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Computers"></use>
+    </svg>
     Computers
   </li>
   <li class="products-category__item">
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Gaming"></use>
+    </svg>
     Gaming
   </li>
 </ul>
@@ -140,7 +176,10 @@
 </ul>
 <ul class="products-offers__list">
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-iphone14pro-desktop@1x.png" srcset="images/products-iphone14pro-desktop@2x.png 2x" width="160" height="160" alt="iPhone 14 Pro Max">
     </picture>
@@ -149,7 +188,11 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-camera-desktop@1x.png" srcset="images/products-camera-desktop@2x.png 2x" width="160" height="160" alt="Blackmagic Pocket Cinema Camera 6k">
     </picture>
@@ -158,7 +201,11 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-applwatch-desktop@1x.png" srcset="images/products-applwatch-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
     </picture>
@@ -167,8 +214,12 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
+
       <img src="images/products-airpods-desktop@1x.png" srcset="images/products-airpods-desktop@2x.png 2x" width="160" height="160" alt="AirPods">
     </picture>
     <h3 class="products-offers__name">AirPods Max Silver</h3>
@@ -176,7 +227,10 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-galaxywatch-desktop@1x.png" srcset="images/products-galaxywatch-desktop@2x.png 2x" width="160" height="160" alt="Samsung Galaxy Watch">
     </picture>
@@ -185,7 +239,10 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-galaxyz-desktop@1x.png" srcset="images/products-galaxyz-desktop@2x.png 2x" width="160" height="160" alt="Galaxy Z">
     </picture>
@@ -194,7 +251,10 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-galaxybuds-desktop@1x.png" srcset="images/products-galaxybuds-desktop@2x.png 2x" width="160" height="160" alt="Galaxy Buds">
     </picture>
@@ -203,7 +263,10 @@
     <button type="submit" class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite"></span>
+    <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
     <picture>
       <img src="images/products-appleipad-desktop@1x.png" srcset="images/products-appleipad-desktop@1x.png 2x" width="160" height="160" alt="Apple iPad">
     </picture>
@@ -253,6 +316,10 @@
   <h2 class="discount-products__tittle">Discounts up to -50%</h2>
   <ul class="discount-products__list">
     <li class="discount-products__item">
+      <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
       <picture>
         <img src="images/discount-iphone14progold-desktop@1x.png" srcset="images/discount-iphone14progold-desktop@2x.png 2x" width="160" height="160" alt="Apple iPhone">
       </picture>
@@ -261,6 +328,10 @@
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
+      <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
       <picture>
         <img src="images/discount-airpods-desktop@1x.png" srcset="images/discount-airpods-desktop@2x.png 2x" width="160" height="160" alt="AirPods">
       </picture>
@@ -269,6 +340,10 @@
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
+      <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
       <picture>
         <img src="images/discount-applewatch-desktop@1x.png" srcset="images/discount-applewatch-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
       </picture>
@@ -277,6 +352,10 @@
        <button class="discount-products__buttons">Buy Now</button>
     </li>
     <li class="discount-products__item">
+      <span class="products-offers__favorite">add favorite</span>
+    <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+      <use href="..\icons\stack.svg#Like"></use>
+    </svg>
       <picture>
         <img src="images/discount-iphone14pro-desktop@1x.png" srcset="images/discount-iphone14pro-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
       </picture>
@@ -345,31 +424,30 @@
 <ul class="main-footer__social-list">
   <li class="main-footer__social-item">
     <a href="#" class="main-footer__social-link">
-      <image src="#"  class="main-footer__social-img" alt="tweeter">
-
-      </image>
+      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+        <use href="..\icons\stack.svg#Twitter"></use>
+      </svg>
     </a>
   </li>
   <li class="main-footer__social-item">
     <a href="#" class="main-footer__social-link">
-      <image src="#"  class="main-footer__social-img" alt="facebook">
-
-      </image>
+      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+        <use href="..\icons\stack.svg#Facebook"></use>
+      </svg>
     </a>
   </li>
   <li class="main-footer__social-item">
     <a  href="#" class="main-footer__social-link">
-      <image src="#"  class="main-footer__social-img" alt="tiktok">
-
-      </image>
+      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+        <use href="..\icons\stack.svg#Tiktok"></use>
+      </svg>
     </a>
   </li>
   <li class="main-footer__social-item">
     <a href="#" class="main-footer__social-link">
-      <image src="#"  class="main-footer__social-img" alt="instagram">
-
-
-
+      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
+        <use href="..\icons\stack.svg#Instagram"></use>
+      </svg>
     </a>
   </li>
 </ul>
