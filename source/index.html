@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Магазин "CANPRICE"</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -44,15 +42,30 @@
       <a class="main-header__link" href="#">Blog</a>
     </li>
   </ul>
-  <ul class="main-header__main-nav">
-    <li class="main-header__item">
-      <a class="main-header__link" href="#">избранное</a>
+  <ul class="main-header__menu">
+    <li class="main-header__menu-item">
+      <a class="main-header__menu-link main-header__menu-link--favorite" href="#">
+       <span class="visually-hidden" >избранное</span>
+       <svg class="products-category__icon" viewBox="0 0 24 24" width="32" height="32">
+        <use href="..\icons\stack.svg#Favorites"></use>
+      </svg>
+      </a>
     </li>
-    <li class="main-header__item">
-      <a class="main-header__link" href="#">корзина</a>
+    <li class="main-header__menu-item">
+      <a class="main-header__menu-link main-header__menu-link--basket" href="#">
+        <span class="visually-hidden" >карзина</span>
+        <svg class="products-category__icon" viewBox="0 0 24 24" width="32" height="32">
+          <use href="..\icons\stack.svg#Cart"></use>
+        </svg>
+      </a>
     </li>
-    <li class="main-header__item">
-      <a class="main-header__link" href="#">профиль</a>
+    <li class="main-header__menu-item">
+      <a class="main-header__menu-link main-header__menu-link--profile" href="#">
+        <span class="visually-hidden" >профиль</span>
+        <svg class="products-category__icon" viewBox="0 0 24 24" width="32" height="32">
+          <use href="..\icons\stack.svg#User"></use>
+        </svg>
+      </a>
     </li>
   </ul>
 </header>

@@ -1,9 +1,9 @@
 .main-header__search {
-  display: none;
+  // display: none;
 }
 
 .main-header__main-nav {
-  display: none;
+  // display: none;
   list-style: none;
   font-family: $sfPro;
   text-transform: uppercase;
@@ -15,3 +15,11 @@
   text-decoration: none;
   color: #000000;
 }
+.main-header__menu-link{
+}
+
+.main-header__menu-item{
+  width: 32px;
+  height: 32px;
+}
+
