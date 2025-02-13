@@ -19,4 +19,23 @@
 
 .products-category__item {
   background-color: #ededed;
+  width: 163px;
+  height: 128px;
+}
+
+.products-category__item-link{
+text-decoration: none;
+color:#000000;
+}
+
+.products-category__button-slider{
+  width: 32px;
+  height: 32px;
+  background-image: url("../../icons/stack.svg#Arrow");
+  border: none;
+  background-color: #fafafa;
+}
+
+.products-category__button-slider--forward{
+  transform: rotate(180deg);
 }

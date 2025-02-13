@@ -105,54 +105,61 @@
   </section>
   <section class="products-category">
     <h2 class="products-category__tittle">Browse By Category</h2>
-    <button class="products-category__button-slider">
-      <span>назад</span>
-      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
-        <use href="..\icons\stack.svg#Arrow"></use>
-      </svg>
+    <button class="products-category__button-slider products-category__button-slider--backward">
+      <span class="visually-hidden">назад</span>
     </button>
-    <button class="products-category__button-slider">
-      <span>вперед</span>
-      <svg class="main-header__icon-burger" viewBox="0 0 24 24" width="24" height="24">
-        <use href="..\icons\stack.svg#Arrow"></use>
-      </svg>
+    <button class="products-category__button-slider products-category__button-slider--forward">
+      <span class="visually-hidden">вперед</span>
     </button>
 <ul class="products-category__list">
+
   <li class="products-category__item">
-    <svg class="products-category__icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Phones"></use>
-    </svg>
-    Phones
+    <a class="products-category__item-link" href="#">
+      <svg class="products-category__icon" viewBox="0 0 24 24" width="48" height="48">
+        <use href="..\icons\stack.svg#Phones"></use>
+      </svg>
+      Phones
+    </a>
   </li>
   <li class="products-category__item">
-    <svg class="products-category__icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Smart-Watches"></use>
-    </svg>
-    Smart Watches
+    <a class="products-category__item-link" href="#">
+      <svg class="products-category__icon" viewBox="0 0 24 24" width="48" height="48">
+        <use href="..\icons\stack.svg#Smart-Watches"></use>
+      </svg>
+      Smart Watches
+    </a>
   </li>
   <li class="products-category__item">
-    <svg class="products-category__icon" viewBox="0 0 24 24" width="24" height="24">
+    <a class="products-category__item-link" href="#">
+    <svg class="products-category__icon" viewBox="0 0 24 24" width="48" height="48">
       <use href="..\icons\stack.svg#Cameras"></use>
     </svg>
     Cameras
+    </a>
   </li>
   <li class="products-category__item">
-    <svg class="products-category__icon" viewBox="0 0 24 24" width="24" height="24">
+    <a class="products-category__item-link" href="#">
+    <svg class="products-category__icon" viewBox="0 0 24 24" width="48" height="48">
       <use href="..\icons\stack.svg#Headphones"></use>
     </svg>
     Headphones
+    </a>
   </li>
   <li class="products-category__item">
-    <svg class="products-category__icon" viewBox="0 0 24 24" width="24" height="24">
+    <a class="products-category__item-link" href="#">
+    <svg class="products-category__icon" viewBox="0 0 24 24" width="48" height="48">
       <use href="..\icons\stack.svg#Computers"></use>
     </svg>
     Computers
+    </a>
   </li>
   <li class="products-category__item">
-    <svg class="products-category__icon" viewBox="0 0 24 24" width="24" height="24">
+    <a class="products-category__item-link" href="#">
+    <svg class="products-category__icon" viewBox="0 0 24 24" width="48" height="48">
       <use href="..\icons\stack.svg#Gaming"></use>
     </svg>
     Gaming
+    </a>
   </li>
 </ul>
   </section>
@@ -176,10 +183,9 @@
 </ul>
 <ul class="products-offers__list">
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+    <span class="visually-hidden">add favorite</span>
+    </button>
     <picture>
       <img src="images/products-iphone14pro-desktop@1x.png" srcset="images/products-iphone14pro-desktop@2x.png 2x" width="160" height="160" alt="iPhone 14 Pro Max">
     </picture>
@@ -188,11 +194,9 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
     <picture>
       <img src="images/products-camera-desktop@1x.png" srcset="images/products-camera-desktop@2x.png 2x" width="160" height="160" alt="Blackmagic Pocket Cinema Camera 6k">
     </picture>
@@ -201,11 +205,10 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
 
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
     <picture>
       <img src="images/products-applwatch-desktop@1x.png" srcset="images/products-applwatch-desktop@2x.png 2x" width="160" height="160" alt="Apple Watch">
     </picture>
@@ -214,12 +217,10 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
     <picture>
-
       <img src="images/products-airpods-desktop@1x.png" srcset="images/products-airpods-desktop@2x.png 2x" width="160" height="160" alt="AirPods">
     </picture>
     <h3 class="products-offers__name">AirPods Max Silver</h3>
@@ -227,10 +228,9 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
     <picture>
       <img src="images/products-galaxywatch-desktop@1x.png" srcset="images/products-galaxywatch-desktop@2x.png 2x" width="160" height="160" alt="Samsung Galaxy Watch">
     </picture>
@@ -239,10 +239,9 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
     <picture>
       <img src="images/products-galaxyz-desktop@1x.png" srcset="images/products-galaxyz-desktop@2x.png 2x" width="160" height="160" alt="Galaxy Z">
     </picture>
@@ -251,10 +250,9 @@
     <button class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
     <picture>
       <img src="images/products-galaxybuds-desktop@1x.png" srcset="images/products-galaxybuds-desktop@2x.png 2x" width="160" height="160" alt="Galaxy Buds">
     </picture>
@@ -263,10 +261,9 @@
     <button type="submit" class="products-offers__buy">Buy Now</button>
   </li>
   <li class="products-offers__item">
-    <span class="products-offers__favorite">add favorite</span>
-    <svg class="favorite-icon" viewBox="0 0 24 24" width="24" height="24">
-      <use href="..\icons\stack.svg#Like"></use>
-    </svg>
+    <button class="products-offers__item-favorite" href="#">
+      <span class="visually-hidden">add favorite</span>
+      </button>
     <picture>
       <img src="images/products-appleipad-desktop@1x.png" srcset="images/products-appleipad-desktop@1x.png 2x" width="160" height="160" alt="Apple iPad">
     </picture>
