@@ -1,44 +1,6 @@
-.discount-products {
-  background-color: #ffffff;
-  font-family: $sfProUltraLight;
-}
-
-.discount-products__list {
-  list-style: none;
-}
-
-.discount-products__item {
-  background-color: #f6f6f6;
-}
-
-.discount-products__tittle {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-}
-
-.discount-products__item-tittle {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-
-.discount-products__price {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 3%;
-}
-
-.discount-products__buttons {
-  font-family: $sfProUltraLight;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  background-color: #000000;
-  color: #ffffff;
-  outline: none;
-  border-radius: 5px;
+.discount-products__tittle{
+font-family: $sfProUltraLight;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
 }
