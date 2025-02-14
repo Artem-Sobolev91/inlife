@@ -39,3 +39,38 @@ color:#000000;
 .products-category__button-slider--forward{
   transform: rotate(180deg);
 }
+
+.products-category__container{
+  width: 163px;
+  height: 128px;
+  background-size: 48px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.products-category__container--phones{
+  background-image: url("../../icons/stack.svg#Phones");
+background-size: 48px;
+background-repeat: no-repeat;
+background-position: center;
+}
+.products-category__container--watches{
+  background-image: url("../../icons/stack.svg#Smart-Watches");
+
+}
+.products-category__container--cameras{
+  background-image: url("../../icons/stack.svg#Cameras");
+
+}
+.products-category__container--headphones{
+  background-image: url("../../icons/stack.svg#Headphones");
+
+}
+.products-category__container--computers{
+  background-image: url("../../icons/stack.svg#Computers");
+
+}
+.products-category__container--gaming{
+  background-image: url("../../icons/stack.svg#Gaming");
+
+}
