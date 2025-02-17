@@ -1,3 +1,13 @@
+.products-offers__wrapper{
+  padding-left: 4%;
+  padding-right: 4%;
+  @media (min-width: $tablet-width) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
+
 .products-offers__button {
   font-family: $sfProUltraLight;
   border: none;
@@ -8,6 +18,19 @@
   line-height: 32px;
   text-align: center;
 }
+
 .products-offers__buttons-list {
+  display: flex;
   list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.products-offers__wrapper-list{
+  padding: 0 4%;
+  @media (min-width: $tablet-width) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }

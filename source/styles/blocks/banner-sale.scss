@@ -4,6 +4,11 @@
   height: 440px;
   font-family: $sfProUltraLight;
   text-align: center;
+  background-repeat: no-repeat;
+  @media (min-width: $tablet-width) {
+    background: url("../../images/bannerSale-desktop@1x.jpg");
+
+  }
 }
 
 .banner-sale__tittle {

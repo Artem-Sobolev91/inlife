@@ -6,6 +6,21 @@
   background-color: #fafafa;
 }
 
+.products-category__wrapper {
+  padding-left: 4%;
+  padding-right: 4%;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.products-category__menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .products-category__tittle {
   font-size: 24px;
   line-height: 32px;
@@ -15,20 +30,28 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    flex-wrap: nowrap;
+  }
 }
 
 .products-category__item {
   background-color: #ededed;
   width: 163px;
   height: 128px;
+
 }
 
-.products-category__item-link{
-text-decoration: none;
-color:#000000;
+.products-category__item-link {
+  text-decoration: none;
+  color: #000000;
 }
 
-.products-category__button-slider{
+.products-category__button-slider {
   width: 32px;
   height: 32px;
   background-image: url("../../icons/stack.svg#Arrow");
@@ -36,41 +59,46 @@ color:#000000;
   background-color: #fafafa;
 }
 
-.products-category__button-slider--forward{
+.products-category__button-slider--forward {
   transform: rotate(180deg);
 }
 
-.products-category__container{
+.products-category__container {
   width: 163px;
   height: 128px;
   background-size: 48px;
-background-repeat: no-repeat;
-background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.products-category__container--phones{
+.products-category__container--phones {
   background-image: url("../../icons/stack.svg#Phones");
-background-size: 48px;
-background-repeat: no-repeat;
-background-position: center;
+  background-size: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.products-category__container--watches{
+
+.products-category__container--watches {
   background-image: url("../../icons/stack.svg#Smart-Watches");
 
 }
-.products-category__container--cameras{
+
+.products-category__container--cameras {
   background-image: url("../../icons/stack.svg#Cameras");
 
 }
-.products-category__container--headphones{
+
+.products-category__container--headphones {
   background-image: url("../../icons/stack.svg#Headphones");
 
 }
-.products-category__container--computers{
+
+.products-category__container--computers {
   background-image: url("../../icons/stack.svg#Computers");
 
 }
-.products-category__container--gaming{
+
+.products-category__container--gaming {
   background-image: url("../../icons/stack.svg#Gaming");
 
 }
