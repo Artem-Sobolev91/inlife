@@ -1,10 +1,22 @@
 .hero {
   font-family: $sfProUltraLight;
   font-size: 16px;
-  font-weight: 22px;
   color: #909090;
   background-color: #211c24;
   text-align: center;
+}
+
+.hero__wrapper {
+  margin: 0 4%;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    text-align: start;
+  }
 }
 
 .hero__button {
@@ -16,6 +28,7 @@
   font-size: 25px;
   font-weight: 600;
   line-height: 32px;
+  margin: 0;
 }
 
 .hero__product-name {
@@ -23,8 +36,14 @@
   font-size: 72px;
   line-height: 72px;
   color: #ffffff;
+  margin: 0;
+
 }
 
 .hero__product-name span {
   font-weight: 600;
+}
+
+.hero__target {
+  margin: 0;
 }
