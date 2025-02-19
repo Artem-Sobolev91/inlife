@@ -1,13 +1,16 @@
 .banner-sale {
   background: url("../../images/bannerSale-mobile@1x.jpg");
   width: 100%;
-  height: 440px;
+  min-height: 440px;
   font-family: $sfProUltraLight;
   text-align: center;
   background-repeat: no-repeat;
+  background-size: 100%;
+
+
   @media (min-width: $tablet-width) {
     background: url("../../images/bannerSale-desktop@1x.jpg");
-
+    background-repeat: no-repeat;
   }
 }
 
@@ -15,7 +18,6 @@
   font-weight: 200;
   font-size: 48px;
   line-height: 72px;
-  letter-spacing: -1%;
   text-align: center;
   color: #ffffff;
 }

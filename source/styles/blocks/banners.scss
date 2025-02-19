@@ -23,8 +23,9 @@
 
 .banners__item{
   display: none;
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     display: inline;
+    width: 25%;
   }
 }
 .banners__item--active{
@@ -51,8 +52,8 @@
 .banners__img{
   width: 371px;
   height: 390px;
-  @media (min-width: $tablet-width) {
-    width: 360px;
-    height: 366px;
+  @media (min-width: $desktop-width) {
+width: 100%;
+height: auto;
   }
 }
