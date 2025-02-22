@@ -14,15 +14,30 @@
 .hero__container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 88px;
+  margin-bottom: 48px;
 
   @media (min-width: $tablet-width) {
-    text-align: start;
+    align-items: start;
   }
 }
 
 .hero__button {
   text-decoration: none;
   color: #ffffff;
+  width: 184px;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #ffffff;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+.hero__picture{
+display: inline-block;
 }
 
 .hero__slogan {
@@ -30,6 +45,7 @@
   font-weight: 600;
   line-height: 32px;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .hero__product-name {
@@ -38,7 +54,7 @@
   line-height: 72px;
   color: #ffffff;
   margin: 0;
-
+  margin-bottom: 16px;
 }
 
 .hero__product-name span {
@@ -47,4 +63,6 @@
 
 .hero__target {
   margin: 0;
+  margin-bottom: 32px;
+  font-size: 19px;
 }

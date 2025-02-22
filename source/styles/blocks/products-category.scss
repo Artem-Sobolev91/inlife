@@ -20,6 +20,11 @@
   display: flex;
   justify-content: space-between;
 }
+.products-category__button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .products-category__tittle {
   font-size: 24px;
@@ -55,6 +60,8 @@
   min-width: 11%;
   height: 128px;
   margin-bottom: 4%;
+  position: relative;
+
 
   @media (min-width: $tablet-width) {
     min-width: 14%;
@@ -84,6 +91,15 @@
   background-size: 48px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.products-category__name{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 .products-category__container--phones {

@@ -1,7 +1,7 @@
 .banner-sale {
   background: url("../../images/bannerSale-mobile@1x.jpg");
   width: 100%;
-  min-height: 440px;
+  height: 440px;
   font-family: $sfProUltraLight;
   text-align: center;
   background-repeat: no-repeat;
@@ -11,6 +11,16 @@
   @media (min-width: $tablet-width) {
     background: url("../../images/bannerSale-desktop@1x.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
+    height: 240px;
+
+  }
+  @media (min-width: $desktop-width) {
+    background: url("../../images/bannerSale-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 440px;
+
   }
 }
 
