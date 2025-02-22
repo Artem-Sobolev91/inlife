@@ -1,6 +1,9 @@
-.products-offers__wrapper{
+.products-offers__wrapper {
   padding-left: 4%;
   padding-right: 4%;
+  padding-top: 56px;
+  padding-bottom: 56px;
+
   @media (min-width: $tablet-width) {
     padding-left: 10%;
     padding-right: 10%;
@@ -19,16 +22,23 @@
   text-align: center;
 }
 
+.products-offers__button--active {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
 .products-offers__buttons-list {
   display: flex;
   list-style: none;
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  margin-bottom: 32px;
 }
 
-.products-offers__wrapper-list{
+.products-offers__wrapper-list {
   padding: 0 4%;
+
   @media (min-width: $tablet-width) {
     padding-left: 10%;
     padding-right: 10%;

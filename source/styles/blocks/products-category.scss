@@ -9,6 +9,8 @@
 .products-category__wrapper {
   padding-left: 4%;
   padding-right: 4%;
+  padding-top: 64px;
+  padding-bottom: 64px;
 
   @media (min-width: $tablet-width) {
     padding-left: 12%;
