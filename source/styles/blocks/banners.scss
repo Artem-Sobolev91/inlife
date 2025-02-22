@@ -2,10 +2,35 @@
   background-color: #f9f9f9;
 }
 
+.banners__wrapper{
+  padding-left: 8%;
+  padding-right: 8%;
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+
 .banners__list {
   font-family: $sfProUltraLight;
   text-align: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.banners__item{
+  display: none;
+  @media (min-width: $desktop-width) {
+    display: inline;
+    width: 25%;
+  }
+}
+.banners__item--active{
+  display: inline;
 }
 
 .banners__tittle {
@@ -23,4 +48,13 @@
 
 .banners__buttons {
   background-color: #f9f9f9;
+}
+
+.banners__img{
+  width: 371px;
+  height: 390px;
+  @media (min-width: $desktop-width) {
+width: 100%;
+height: auto;
+  }
 }
