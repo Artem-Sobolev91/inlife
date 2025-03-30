@@ -31,7 +31,7 @@
         <input type="text" id="search" name="search">
       </form>
       <ul class="main-header__main-nav">
-        <li class="main-header__item">
+        <li class="main-header__item main-header__item--active-item">
           <a class="main-header__link" href="#">Home</a>
         </li>
         <li class="main-header__item">
@@ -83,6 +83,8 @@
           <a class="hero__button" href="#">Shop Now</a>
         </div>
         <picture class="hero__picture">
+          <source width="406" height="632" type="image/jpg" media="(min-width: 1440px)"
+            srcset="images/hero-iphone-desktop@1x.png 1x, images/hero-iphone-desktop@2x.png 2x">
           <source width="406" height="289" type="image/jpg" media="(min-width: 450px)"
             srcset="images/hero-iphone-mobile@1x.png 1x, images/hero-iphone-mobile@2x.png 2x">
 
@@ -99,9 +101,9 @@
             <img src="images/smallBanners-airpodsmax-mobile@1x.png"
               srcset="images/smallBanners-airpodsmax-mobile@2x.png 2x" width="192" height="200" alt="Apple AirPods">
           </picture>
-          <div>
-            <h3 class="products-line__name">Apple AirPods <span>Max</span></h3>
-            <p class="products-line__oprions">Computational audio. Listen, it's powerful</p>
+          <div class="products-line__text">
+            <h3 class="products-line__name">Apple AirPods&nbsp<span>Max</span></h3>
+            <p class="products-line__oprions">Computational&nbspaudio. Listen,&nbspit's&nbsppowerful</p>
           </div>
         </li>
         <li class="products-line__item products-line__item--black">
@@ -111,8 +113,8 @@
             <img src="images/smallBanners-appleVision-mobile@1x.png"
               srcset="images/smallBanners-appleVision-mobile@2x.png 2x" width="326" height="192" alt="Vision Pro">
           </picture>
-          <div>
-            <h3 class="products-line__name">Vision <span>Pro</span></h3>
+          <div class="products-line__text">
+            <h3 class="products-line__name">Apple Vision&nbsp<span>Pro</span></h3>
             <p class="products-line__oprions">An immersive way to experience entertainment </p>
           </div>
         </li>
@@ -123,7 +125,7 @@
             <img src="images/smallBanners-playstation-mobile@1x.png"
               srcset="images/smallBanners-playstation-mobile@2x.png 2x" width="200" height="200" alt="Playstation 5">
           </picture>
-          <div>
+          <div class="products-line__text">
             <h3 class="products-line__name">Playstation <span>5</span></h3>
             <p class="products-line__oprions">Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
               redefine your PlayStation experience. </p>
@@ -136,7 +138,7 @@
             <img src="images/smallBanners-macbookPro14-mobile@1x.png"
               srcset="images/smallBanners-macbookPro14-mobile@2x.png 2x" width="330" height="200" alt="Macbook">
           </picture class="products-line__picture">
-          <div>
+          <div class="products-line__text">
             <h3 class="products-line__name"><span>Macbook</span> Air</h3>
             <p class="products-line__oprions">The new 15‑inch MacBook Air makes room for more of what you love with a
               spacious Liquid Retina display.</p>
@@ -518,3 +520,4 @@
 </body>
 
 </html>
+
