@@ -10,21 +10,23 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
   }
 
   @media (min-width: $desktop-width) {
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 55% 45%;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    min-height: 600px;
   }
 }
 
 .products-line__item {
   box-sizing: border-box;
   padding: 40px 4%;
-  min-height: 376px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -36,17 +38,30 @@
   }
 }
 
+.products-line__picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .products-line__picture img {
   margin-bottom: 17px;
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
 }
 
 .products-line__text {
-  text-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 48px;
-  padding-left: 48px;
+
+  @media (min-width: $desktop-width) {
+    padding-right: 48px;
+    padding-left: 48px;
+    text-align: start;
+  }
 }
 
 .products-line__name {
@@ -55,6 +70,24 @@
   line-height: 40px;
   margin: 0;
   margin-bottom: 8px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 49px;
+    margin-bottom: 16px;
+
+  }
+}
+
+.products-line__name--big {
+  @media (min-width: $desktop-width) {
+    font-size: 64px;
+  }
+}
+
+.products-line__name--small {
+  @media (min-width: $desktop-width) {
+    font-size: 29px;
+  }
 }
 
 .products-line__name span {
@@ -62,11 +95,17 @@
 }
 
 .products-line__oprions {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   color: #909090;
   margin: 0;
+  padding: 0 18px;
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin-bottom: 16px;
+  }
 }
 
 .products-line__item--black {
@@ -84,7 +123,7 @@
   @media (min-width: $desktop-width) {
     padding: 0;
     padding-left: 56px;
-
+    flex-direction: row-reverse;
   }
 }
 
@@ -97,6 +136,7 @@
 .products-line__list li:nth-of-type(2) {
   @media (min-width: $desktop-width) {
     grid-area: 2 / 2 / 3 / 3;
+
   }
 }
 
@@ -124,4 +164,15 @@
   justify-content: center;
   align-items: center;
   margin-top: 16px;
+
+  @media (min-width: $tablet-width) {
+    width: 51%;
+    margin: 0 auto;
+
+  }
+  @media (min-width: $desktop-width) {
+    width: 51%;
+    margin: 0;
+
+  }
 }

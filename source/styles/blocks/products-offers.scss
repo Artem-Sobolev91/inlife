@@ -1,3 +1,4 @@
+
 .products-offers__wrapper {
   padding-left: 4%;
   padding-right: 4%;
@@ -5,8 +6,13 @@
   padding-bottom: 56px;
 
   @media (min-width: $tablet-width) {
-    padding-left: 10%;
-    padding-right: 10%;
+    align-items: center;
+    padding-left: 11%;
+    padding-right: 11%;
+    display: flex
+;
+    flex-direction: column;
+
   }
 
 }
@@ -20,6 +26,9 @@
   font-size: 16px;
   line-height: 32px;
   text-align: center;
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+  }
 }
 
 .products-offers__button--active {
@@ -34,6 +43,11 @@
   margin: 0;
   padding: 0;
   margin-bottom: 32px;
+  @media (min-width: $tablet-width) {
+    justify-content:flex-start;
+    gap:32px;
+    width: 80%;
+  }
 }
 
 .products-offers__wrapper-list {
@@ -42,5 +56,6 @@
   @media (min-width: $tablet-width) {
     padding-left: 10%;
     padding-right: 10%;
+
   }
 }

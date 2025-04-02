@@ -8,25 +8,36 @@
   font-weight: 500;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
-  gap: 16px;
-  width: 100%;
+  justify-items: center;
+  width: 80%;
+  gap:16px;
+
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .products-list__item {
   background-color: #f6f6f6;
-  width: 40%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   padding: 24px 12px;
   min-height: 352px;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
-    width: 23%;
+    width: 98%;
+
   }
 }
 
