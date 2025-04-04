@@ -6,29 +6,82 @@
   background-color: #fafafa;
 }
 
+.products-category__wrapper {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {}
+}
+
+.products-category__menu-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 32px;
+
+  }
+}
+
+.products-category__button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .products-category__tittle {
   font-size: 24px;
   line-height: 32px;
+  margin: 0;
+
 }
 
 .products-category__list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+
+  }
+
+  @media (min-width: 942px) {}
+
+  @media (min-width: $desktop-width) {}
+
 }
 
 .products-category__item {
   background-color: #ededed;
   width: 163px;
   height: 128px;
+  margin-bottom: 4%;
+  position: relative;
+  border-radius: 15px;
+
+
+  @media (min-width: $tablet-width) {
+    width: 160px;
+  }
 }
 
-.products-category__item-link{
-text-decoration: none;
-color:#000000;
+.products-category__item-link {
+  text-decoration: none;
+  color: #000000;
 }
 
-.products-category__button-slider{
+.products-category__button-slider {
   width: 32px;
   height: 32px;
   background-image: url("../../icons/stack.svg#Arrow");
@@ -36,6 +89,55 @@ color:#000000;
   background-color: #fafafa;
 }
 
-.products-category__button-slider--forward{
+.products-category__button-slider--forward {
   transform: rotate(180deg);
+}
+
+.products-category__container {
+  width: 163px;
+  height: 128px;
+  background-size: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products-category__name {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.products-category__container--phones {
+  background-image: url("../../icons/stack.svg#Phones");
+  background-size: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.products-category__container--watches {
+  background-image: url("../../icons/stack.svg#Smart-Watches");
+
+}
+
+.products-category__container--cameras {
+  background-image: url("../../icons/stack.svg#Cameras");
+
+}
+
+.products-category__container--headphones {
+  background-image: url("../../icons/stack.svg#Headphones");
+
+}
+
+.products-category__container--computers {
+  background-image: url("../../icons/stack.svg#Computers");
+
+}
+
+.products-category__container--gaming {
+  background-image: url("../../icons/stack.svg#Gaming");
+
 }

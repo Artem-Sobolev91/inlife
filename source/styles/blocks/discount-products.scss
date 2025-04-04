@@ -1,6 +1,32 @@
-.discount-products__tittle{
-font-family: $sfProUltraLight;
-font-weight: 500;
-font-size: 24px;
-line-height: 32px;
+.discount-products__wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 11%;
+}
+
+.discount-products {
+  padding-top: 56px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 68px;
+    padding-bottom: 80px;
+  }
+}
+
+.discount-products__tittle {
+  width: 80%;
+  font-family: $sfProUltraLight;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  margin-bottom: 32px;
+
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    margin-bottom: 32px;
+  }
 }
