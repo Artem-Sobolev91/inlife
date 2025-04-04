@@ -27,11 +27,14 @@
 .banners__item {
   display: none;
   box-sizing: border-box;
+  text-align: center;
 
-  @media (min-width: 800px) {
-    display: inline;
+  @media (min-width: 1300px) {
+    display: inline-block;
     width: 25%;
     padding-bottom: 56px;
+    text-align: start;
+
   }
 }
 
@@ -78,8 +81,9 @@
   min-height: 56px;
   border-radius: 6px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width:1300px) {
     font-size: 16px;
+
   }
 }
 
